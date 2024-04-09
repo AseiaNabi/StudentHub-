@@ -1,0 +1,103 @@
+.header {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  background-color:#363062;
+  justify-content: flex-end; /* Move buttons to the right side */
+}
+.button-container {
+  display: flex;
+  margin-top: 30px; /* Add margin for spacing */
+}
+
+.login-buttons button {
+  margin-left: 10px; /* Add space between buttons */
+  color: #363062; /* Text color */
+  background-color:#F99417; /* Button background color */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: auto; /* Align to the right */
+  margin-right: 20px; /* Add fixed margin to the right */
+
+}
+h1 {
+  text-align: center; /* Center the text */
+  font-size: 48px; /* Enlarge the font size */
+  color: #363062; /* Change the text color */
+}
+.header2 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+   background-color: #4D4C7D;
+  justify-content: flex-end; /* Move buttons to the right side */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    color: #ffffff;
+}
+
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    background-color: #363062;
+}
+
+.right-section {
+    background-color: #ffffff;
+    color: #363062;
+}
+
+.login-box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.login-box h2 {
+    text-align: center;
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-box label {
+    margin-bottom: 5px;
+}
+
+.login-box input {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.login-box button {
+    padding: 8px 16px;
+    background-color: #F99417;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    align-self: center;
+}
+

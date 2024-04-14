@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image2 from '/Users/aseianabi/IdeaProjects/StudentHub/student-hub/src/images/image2.jpeg';
+import image2 from '../images/image2.jpeg';
 
 const Register = () => {
     return (

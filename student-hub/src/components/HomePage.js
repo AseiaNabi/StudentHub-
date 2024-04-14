@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Login from './Login';
-import image from '/Users/aseianabi/IdeaProjects/StudentHub/student-hub/src/images/image.jpeg';
-import image1 from '/Users/aseianabi/IdeaProjects/StudentHub/student-hub/src/images/image1.jpeg';
+import image from '../images/image.jpeg';
+import image1 from '../images/image1.jpeg';
 import { Element, animateScroll as scroll, scroller } from 'react-scroll';
 
 

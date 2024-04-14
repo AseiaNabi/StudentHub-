@@ -6,7 +6,7 @@ const Login = () => {
         <div>
             <div className="header2">
                 <div className="login-buttons">
-                    <Link to="/">
+                    <Link to="/Events">
                         <button>Home</button>
                     </Link>
                      <Link to="/Register">
